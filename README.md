@@ -18,7 +18,7 @@ O projeto é uma página estática, porém, foi possível utilizar javascript na
 - Input de busca (buscando textos da página home)
 - Formulário de contato (faz validações básicas nos campos e utiliza o **TOASTR JS** para dar feedback de sucesso)
 
-## Infirmações Gerais
+## Informações Gerais
 
 Não foi utilizado frameworks e bibliotecas para responsividade como por exemplo, **Bootstrap**, pois esse projeto teve como finalidade, mostrar conhecimento raiz de desenvolvimento puro de responsividade com css, mas deixando claro que o uso de **Bootstrap** é extremamente útil em projetos pequenos e com prazos curtos para obter mais agilidade no desenvolvimento.
 
