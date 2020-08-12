@@ -1,11 +1,12 @@
 .banner {
     display: flex;
+    align-items: flex-start;
     position: relative;
     justify-content: flex-end;
 }
 
 .banner-main {
-    max-width: 100%;;
+    max-width: 100%;
 }
 
 .monitor {
