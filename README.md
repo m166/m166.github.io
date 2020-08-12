@@ -7,6 +7,10 @@ Feito em **JS, HTML e CSS** acompanhado das seguintes tecnologias/bibliotecas:
 - **[TOASTR JS](https://github.com/CodeSeven/toastr)**;
 - **[FONT AWESOME](https://fontawesome.com/v4.7.0/icons/)**;
 
+## Demo
+
+É possível visualizar e acessar a versão de demonstração clicando [aqui](https://m166.github.io/index.html).
+
 ## Funcionalidades
 
 O projeto é uma página estática, porém, foi possível utilizar javascript nas seguintes funcionalidades:
