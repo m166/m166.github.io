@@ -1,0 +1,22 @@
+.result-box,
+.result-box .result-list {
+    display: flex;
+    flex-flow: column;
+}
+
+.result-box .amount-result {
+    display: block;
+    font-style: italic;
+    font-size: 12px;
+    margin: 20px 0px 12px 0px;
+}
+
+.result-box .result-list .text {
+    padding: 20px;
+    background-color: var(--content-box-color);
+    margin: 8px 0px;
+}
+
+footer.container {
+    margin-top: 17px;
+}

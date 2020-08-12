@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Frontend</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/header.css" />
+    <link rel="stylesheet" type="text/css" href="../css/contato.css" />
+    <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Jquery -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Toastr -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="head-box container">
+            <a class="logo-box" href="../index.html">
+                <img src="../assets/images/logo-foster.jpg" class="logo" alt="logotipo foster" title="logotipo foster" />
+            </a>
+        </div>
+        <nav class="container nav-bar">
+            <div class="nav-menu nav-item primary-color-bg">
+                <label for="menuCheckBox" class="menu-label"> MENU </label>
+            </div>
+            
+            <input type="checkbox" name="menuCheckBox" id="menuCheckbox" class="menu-checkbox" />
+
+            <div class="nav-list">
+                <a href="../index.html" class="nav-item home primary-color-bg">
+                    HOME
+                </a>
+    
+                <a href="./sobre.html" class="nav-item sobre primary-color-bg">
+                    SOBRE
+                </a>
+    
+                <a href="./contato.html" class="nav-item contato secondary-color-bg">
+                    CONTATO
+                </a>
+            </div>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="content">
+            <div class="contact">
+                <ul class="contact-list">
+                    <li class="text">
+                        Matheus Oliveira Alves Moreno
+                    </li>
+                    <li class="text">
+                        Desenvolvedor Frontend
+                    </li>
+                    <li class="text">
+                        Estudante de Sistemas para Internet
+                    </li>
+                    <li class="text">
+                        Telefone: (11) 94147-6185
+                    </li>
+                    <li class="text">
+                        Email: cpxmat@gmail.com
+                    </li>
+                </ul>
+                <div class="contact-social-box">
+                    <a class="social-item" href="https://github.com/m166" target="_blank">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a class="social-item" href="https://www.linkedin.com/in/matheus-moreno-51461716a/" target="_blank">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contact contact-us">
+                <form id="contactForm" class="form">
+                    <input type="text" name="name" class="name input" placeholder="Nome">
+                    <span id="nameMessageError" class="message-error-box"> Campo de nome está inválido! </span>
+                    <input type="email" name="email" class="email input" placeholder="E-mail">
+                    <span id="emailMessageError" class="message-error-box"> Campo de email está inválido! </span>
+                    <input type="text" name="subject" class="subject input" placeholder="Assunto">
+                    <span id="subjectMessageError" class="message-error-box"> Campo de assunto está inválido! </span>
+                    <textarea name="message" class="message input" placeholder="Mensagem"></textarea>
+                    <span id="messageMessageError" class="message-error-box"> Campo de mensagem está inválido! </span>
+                    <button type="submit" class="submit">
+                        ENVIAR
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="container">
+        <div class="footer">
+            © 2011 Foster Web Solutions & Consulting / Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="../js/emailSender.js"></script>
+</body>
+
+</html>

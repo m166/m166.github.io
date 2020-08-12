@@ -1,0 +1,121 @@
+.nav-bar .nav-item.contato {
+    background-color: var(--secondary-color);
+}
+
+.nav-bar .nav-item.sobre {
+    background-color: var(--primary-color);
+}
+
+.nav-bar .nav-item.home {
+    background-color: var(--primary-color);
+}
+
+.content {
+    display: flex;
+}
+
+.text {
+    font-size: 14px;
+    font-family: Arial;
+    background-color: var(--content-box-color);
+    font-weight: normal;
+    margin-bottom: 0px;
+    padding: 0px;
+    list-style: none;
+    line-height: 1.7;
+}
+
+.contact {
+    display: flex;
+    flex-flow: column;
+    width: 458px;
+    padding: 20px;
+    background-color: var(--content-box-color);
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px 0px 20px 0;
+}
+
+.contact-social-box {
+    margin-top: auto;
+}
+
+.contact-social-box .social-item {
+    font-size: 40px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.contact-social-box .social-item .fa-linkedin-square {
+    color: #0e76a8;
+    transition: all 0.3s ease;
+}
+
+.contact-social-box .social-item .fa-github {
+    color: #171515;
+    transition: all 0.3s ease;
+}
+
+.contact-social-box .social-item .fa-linkedin-square:hover,
+.contact-social-box .social-item .fa-github:hover {
+    opacity: .7;
+}
+
+.contact-us {
+    margin-right: 0px;
+}
+
+.contact-us .form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us .form .message-error-box {
+    display: none;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #f44336;
+}
+
+.contact-us .form .message-error-box.is-visible {
+    display: block;
+}
+
+.contact-us .message {
+    resize: vertical;
+}
+
+.contact-us .input {
+    margin: 0 0 10px;
+    padding: 8px 10px;
+}
+
+.contact-us .submit {
+    background-color: var(--primary-color);
+    color: var(--font-nav-color);
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: normal;
+    border: none;
+    width: 110px;
+    height: 37px;
+    margin-left: auto;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .content {
+        flex-flow: column;
+    }
+
+    .content .contact {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

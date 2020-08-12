@@ -1,0 +1,114 @@
+.banner {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.banner-main {
+    max-width: 100%;;
+}
+
+.monitor {
+    position: absolute;
+    right: -18px;
+    margin: 0px;
+    top: 38px;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.text-py {
+    width: 458px;
+    padding: 20px;
+    background-color: var(--content-box-color);
+    margin-top: 52px;
+    margin-right: 25px;
+}
+
+.text-pn {
+    width: 458px;
+    padding: 20px;
+    background-color: var(--content-box-color);
+    margin-top: 52px;
+    display: flex;
+}
+
+.title {
+    font-size: 16px;
+    font-family: Arial;
+    color: var(--text-color);
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.text {
+    font-size: 12px;
+    font-family: Arial;
+    background-color: var(--content-box-color);
+    font-weight: normal;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.work-m {
+    float: right;
+    margin-left: 16px;
+}
+
+.text-content-py {
+    padding-left: 32px;
+}
+
+.li-py {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.work-coffee {
+    display: flex;
+}
+
+/* Responsive */
+@media (max-width: 980px) {
+    .banner .monitor {
+        max-width: 38%;
+        right: -10px;
+        top: 20px;
+    }
+
+    .banner .monitor .monitor-img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 890px) {
+    .content {
+        flex-flow: column;
+    }
+
+    .content .text-py {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 25px;
+    }
+
+    .content .text-pn {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+}
+
+@media (max-width: 400px){
+    .content .text-py .work-m .work-materials {
+        width: 115px;
+    }
+
+    .content .text-pn .work-c .work-coffee {
+        width: 115px;
+    }
+}

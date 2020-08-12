@@ -1,0 +1,12 @@
+.footer {
+    font-size: 9px;
+    font-family: Arial;
+    font-weight: normal;
+    background-color: var(--footer-color);
+    height: 44px;
+    margin-bottom: 24px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: var(--footer-text-color);
+}

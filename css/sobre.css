@@ -1,0 +1,34 @@
+.nav-bar .nav-item.sobre {
+    background-color: var(--secondary-color);
+}
+
+.nav-bar .nav-item.home {
+    background-color: var(--primary-color);
+}
+
+.text-py {
+    padding: 20px;
+    background-color: var(--content-box-color);
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-size: 16px;
+    font-family: Arial;
+    color: var(--text-color);
+    font-weight: bolder;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    font-size: 12px;
+    font-family: Arial;
+    background-color: var(--content-box-color);
+    font-weight: normal;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: justify;
+}

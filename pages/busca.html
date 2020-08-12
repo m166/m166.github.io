@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca - Frontend</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/header.css" />
+    <link rel="stylesheet" type="text/css" href="../css/busca.css" />
+    <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="head-box container">
+            <a class="logo-box" href="../index.html">
+                <img src="../assets/images/logo-foster.jpg" class="logo" alt="logotipo foster" title="logotipo foster" />
+            </a>
+        </div>
+        <nav class="container nav-bar">
+            <div class="nav-menu nav-item primary-color-bg">
+                <label for="menuCheckBox" class="menu-label"> MENU </label>
+            </div>
+            
+            <input type="checkbox" name="menuCheckBox" id="menuCheckbox" class="menu-checkbox" />
+
+            <div class="nav-list">
+                <a href="../index.html" class="nav-item home primary-color-bg">
+                    HOME
+                </a>
+    
+                <a href="./sobre.html" class="nav-item sobre primary-color-bg">
+                    SOBRE
+                </a>
+    
+                <a href="./contato.html" class="nav-item contato primary-color-bg">
+                    CONTATO
+                </a>
+            </div>
+        </nav>
+    </header>
+    <section class="content container">
+        <div class="result-box">
+            <span id="amountResult" class="amount-result"> 0 resultados encontrados </span>
+            <div id="searchResultSpace" class="result-list">
+                <span class="text"> Nenhum resultado encontrado. </span>
+            </div>
+        </div>
+    </section>
+    <footer class="container">
+        <div class="footer">
+            © 2011 Foster Web Solutions & Consulting / Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="../js/searchTextContent.js"></script>
+</body>
+</html>
